@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="MF2260zbiOfD4v7ZFwnY">
-    <mxGraphModel dx="1878" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="740" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5bxbunjj5vEptI5vn-1S-1" value="User TimeLines" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="5bxbunjj5vEptI5vn-1S-1" value="User TimeLines" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="180" y="130" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5bxbunjj5vEptI5vn-1S-2" value="trends" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="5bxbunjj5vEptI5vn-1S-2" value="trends" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="180" y="480" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5bxbunjj5vEptI5vn-1S-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5bxbunjj5vEptI5vn-1S-3" target="5bxbunjj5vEptI5vn-1S-6">
@@ -18,14 +18,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5bxbunjj5vEptI5vn-1S-3" value="User Timeline&amp;nbsp;&lt;div&gt;BERT&amp;nbsp;&lt;/div&gt;&lt;div&gt;Encoding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5bxbunjj5vEptI5vn-1S-3" value="User Timeline&amp;nbsp;&lt;div&gt;BERT&amp;nbsp;&lt;/div&gt;&lt;div&gt;Encoding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="150" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5bxbunjj5vEptI5vn-1S-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5bxbunjj5vEptI5vn-1S-4" target="5bxbunjj5vEptI5vn-1S-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5bxbunjj5vEptI5vn-1S-4" value="Trends&lt;div&gt;BERT&lt;/div&gt;&lt;div&gt;Encoding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5bxbunjj5vEptI5vn-1S-4" value="Trends&lt;div&gt;BERT&lt;/div&gt;&lt;div&gt;Encoding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="150" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5bxbunjj5vEptI5vn-1S-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5bxbunjj5vEptI5vn-1S-6" target="5bxbunjj5vEptI5vn-1S-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5bxbunjj5vEptI5vn-1S-6" value="Data Pre-processing" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="330" y="240" width="540" height="230" as="geometry" />
@@ -65,6 +68,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="387.05999999999995" y="107.40999999999997" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5bxbunjj5vEptI5vn-1S-48" value="Split dataset to train and test" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="970" y="325" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
